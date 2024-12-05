@@ -5,7 +5,7 @@
 ---
 
 ## 🖌️ **Live Preview**
-🌐 **Explore Here:** [Raj Tilak's Portfolio](https://krajtilak-portfolio.netlify.app/)  
+🌐 **Explore Here:** [Portfolio](https://rajtilak-2020.github.io/K-Rajtilak_s-Portfolio-V2/)  
 
 ---
 
