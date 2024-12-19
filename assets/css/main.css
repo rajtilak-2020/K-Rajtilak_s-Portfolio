@@ -1048,6 +1048,33 @@ transform-origin: top right;
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.mapbox {
+  position: relative;
+  width: 100%; /* Takes the full width of the container */
+  max-width: 600px; /* Sets a maximum width for larger screens */
+  height: 41vh; /* Dynamically adjusts height based on viewport */
+  margin: 10px -25px; /* Centers the mapbox horizontally with vertical spacing */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mapbox figure {
+  width: 100%; /* Matches the parent width */
+  height: 100%; /* Matches the parent height */
+  margin: 0; /* Removes default margin for figure */
+}
+
+.mapbox iframe {
+  width: 100%; /* Ensures iframe takes up full width of .mapbox */
+  height: 100%; /* Ensures iframe takes up full height of .mapbox */
+  filter: grayscale(1) invert(1); /* Keeps the desired style */
+  border: 0; /* Removes iframe border */
+  border-radius: 8px; /* Adds rounded corners */
+}
+
+
 .contact .info-item+.info-item {
   margin-top: 40px;
 }
